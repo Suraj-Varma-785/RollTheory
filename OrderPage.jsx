@@ -152,7 +152,7 @@ function DecrementMilkShakes(y){
           <div className="List">
           <button value={"Rolls"}  onClick={()=>{setItem("Rolls")}  }> ROLLS</button>
           <button  value={"Fries"}  onClick={()=>setItem("Fries")}> FRIES</button>
-          <button  value={"Desert"}  onClick={()=>setItem("Desert")}> DESERT</button>
+          <button  value={"MilkShakes"}  onClick={()=>setItem("MilkShakes")}> MilkShakes</button>
               
           </div>
           <div className=" Menu">
@@ -335,8 +335,8 @@ function DecrementMilkShakes(y){
               
               
               
-              {/* THIS IS FOR DESERTSS */}
-             {Item==="Desert"&&(
+              {/* THIS IS FOR MilkShakes */}
+             {Item==="MilkShakes"&&(
                 <>
                   <div class="box-container">
                <div class="box">
