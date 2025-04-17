@@ -1,0 +1,39 @@
+#AddItems{
+    display: flex;
+    gap: 50px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#Item{
+    align-items: center;
+    color: black;
+    margin: 0 0 8px 0;
+    font-size: 14px; 
+}
+
+button{
+    padding: 4px 8px;
+}
+
+#Card{
+    border: 10px solid;
+    border-color: rgb(196, 74, 74);
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+
+
+    border-radius: 8px;
+    padding: 12px;
+    width: 150px;       
+    text-align: center; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+
+    display: flex;          /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+ 
+}
