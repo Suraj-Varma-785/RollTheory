@@ -1,0 +1,118 @@
+button{
+  padding: 15px;
+  font-weight: bold;
+  font-stretch: extra-expanded;
+  border-radius: 10px;
+  margin: 80px;
+
+ /*  padding: 15px;
+  font-weight: bold;
+  font-stretch: extra-expanded;
+  border-radius: 10px;
+  margin: 80px;*/
+}
+
+.Holder {
+  display: flex;
+  background-color: black;
+  gap: 5px;
+}
+
+.List {
+  background-color: aqua;
+  width: 300px;
+  height: 700px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.Menu {
+  background-color: bisque;
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.Bill {
+  background-color: blueviolet;
+  width: 375px;
+  height: 700px;
+}
+
+.box {
+  width: 160px;
+  min-height: 110px;
+  padding: 8px;
+  border: 2px solid rgb(196, 74, 74);
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Fixed Text Display */
+.box h1 {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+  display: -webkit-box;
+  /* -webkit-line-clamp: 2; */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  max-height: 2.8em; /* 2 lines * line-height */
+  width: 100%;
+  padding: 0 2px;
+  word-break: break-word;
+  color: black;
+}
+
+.quantity-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4px;
+}
+
+
+.defButton {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 12px;
+  min-width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-row h2 {
+  font-size: 14px;
+  min-width: 20px;
+  text-align: center;
+  margin: 0;
+  color: black;
+}
+
+.box-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
